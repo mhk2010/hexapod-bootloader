@@ -123,7 +123,8 @@ $(document).ready(function() {
 			$("#progress").css("opacity", "1");
 			$("#progress").attr("max", total_opcodes);
 			$("#output").text("Ikelinejama...");
-			sendStart();
+			// sendStart();
+			sendCode(op_codes[0]);
 		} else {
 			$("#output").text("Blogas kodas");
 		}
