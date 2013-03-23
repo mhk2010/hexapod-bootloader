@@ -52,7 +52,7 @@ $(document).ready(function() {
 		return 0;
 	}
 
-	$("head").append("<link rel='stylesheet' href='http://hexapod-bootloader.googlecode.com/git/test.css' type='text/css'/>");
+	$("head").append("<link rel='stylesheet' href='http://hexapod-bootloader.googlecode.com/git/bootloader.css' type='text/css'/>");
 	$("head").append("<title>HTTP Bootloader</title>");
 	$("html").append("<body><div id='main'></div></body>");
 	
